@@ -1,0 +1,55 @@
+ （1）link：是指插入另一种关系
+ 如< link rel="stylesheet" href="./名字" ><br>
+ <p>
+（2）常见得标签：<br>
+去掉下划线:Text-decoration 
+字体加粗：font-weight 
+外边框颜色：solid
+当鼠标悬停：hover
+透明边框：transparent
+继承:inhert
+字体:font-family
+图片居中:background-position:center
+图片大小自动调节:background-size
+背景颜色透明:background-color:rgba
+最大宽度:max-width
+框居中:margin-left(right):auto
+文字水平居中:Text-align:center
+线高（固定线高）:line-height</p><br>
+<p>{3）pading|border|margin|的区别：</p><br>
+content- 显示文本和图像的框的内容
+padding- 清除内容周围的区域。填充是透明的
+border- 围绕填充和内容的边框
+margin- 清除边界外的区域。边距是透明的
+<div class="图片">
+    <img src="../img/Update css margin vs padding-2.webp">
+</div><br>
+<p>（4）position的五个取值：定位</p><br>
+1.static默认属性，表示left\right\top\bottom 属性无效，大爱在了文档流里面<br>
+2.relative相对定位，升起来，发生偏移时position属性取static时盒子位置，不脱离文档流<br>
+3.absolute绝对定位，定位标准是非static,如果没有就是相对html发生偏移。<br>
+4.fixed固定定位元素相对与viewport位置发生偏移。元素在滚顶时不会发生变化。<br>
+5.sticky粘性定位，可以认为是relative和fixed的混合，元素在跨越特定值时前是相对定位，之后的固定定位。<br>
+注意：子元素写absolute;母元素写relation。<br>
+<p>(5)float的用法：指一个元素或者盒子是否浮动<br></p>
+<table border="1">
+    <tr>
+        <th>属性</th><th>描述</th><th>值</th>
+    </tr>
+    <tr>
+        <th>clear</th><td>指定不允许有元素周围有浮动元素</td><td>left\right\both\none\inhert</td>
+    </tr>
+    <tr>
+        <th>float</th><td>指定一个盒子（元素）是否可以浮动</td><td>left\right\none\inhert</td>
+    </tr>
+</table><br>
+<p>注意：如果让所有的子元素浮动，就给子元素加float，给它们共同的母元素加clearfix<br>
+浮动高度塌陷解决的方法有三个：<br>
+a.把浮动的高度写死<br>
+b.清浮动，不允许前面有浮动<br>
+c.在当前的盒子前面加一个div </p>
+
+
+
+
+
